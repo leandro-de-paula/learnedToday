@@ -1,0 +1,49 @@
+<!DOCTYP html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>dom</title>
+        
+      
+        
+     
+       <style type="text/css">
+		
+			body{
+				color: #F3FFBD;
+				background: #247BA0;
+				font-size: 30px;
+				font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+				}
+
+		</style>
+		<script>
+		    document.getElemetById("test")
+		</script>
+        
+    </head>
+    <body>
+        <h3>Test dom</h3>
+        <p>teste:</p>
+        <input
+        type="text"
+        id="test" 
+        class="campo-texto" 
+        name="nome" 
+        placeholder="entre com dados"/>
+        <br>
+        
+        <hr>
+        <span>Letras</span>
+        <input type="text" disabled="disabled">
+
+    <span>Numeros</span>
+        <input type="text" disabled="disabled">
+
+        <script>
+          const a = document.getElementById("test").value 
+          document.write(a)
+        </script>
+        <hr>
+    </body>
+</html>       

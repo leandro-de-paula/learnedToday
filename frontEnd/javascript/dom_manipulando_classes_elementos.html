@@ -1,0 +1,66 @@
+<!DOCTYP html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Dom Manipulation Class</title>
+        
+       <script>
+       const styleBase1 ="style1"
+       
+       
+           function modifyClass(x){
+               if(x !== styleBase1){
+               document.getElementById("message").className="style2"
+               const styleBase2 ="style2
+               } else if(x !== style2){
+                   document.getElementById("message").className="style1"
+               }
+           }
+       </script> 
+        
+     
+       <style type="text/css">
+		
+			body{
+				color: #F3FFBD;
+				background: #247BA0;
+				font-size: 30px;
+				font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+				}
+				
+  			.style1{
+  			    background:#FF0000;
+  			    color:#FFF;
+  			}
+  			
+  			.style2{
+  			    background:#FF0000;
+  			    color:#FFF;
+  			    width:400px;
+  			    height:50px;
+  			    text-align:center;
+  			    font-size:50px;
+  			    padding:200px;
+  			}
+
+		</style>
+        
+    </head>
+    <body>
+        <div>
+           <h3>DOM - Manipulate Class Elements</h3>
+            <p>Manipulando Classes no DOM</p>
+           <br>
+           <div id="message" class="style1">Modify Class And Elements</div>
+           <button type="button" onclick="modifyClass()">Modify Class</button>
+        </div>
+        
+        <script>
+        
+            
+
+                                        
+        </script>
+        <hr>
+    </body>
+</html>       

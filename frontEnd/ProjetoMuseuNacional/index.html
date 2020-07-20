@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Museu Nacional</title>
+		<meta charset="utf-8">
+
+		<!-- Normalize -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!-- Estilo Customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">	 
+
+
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+		<div id="container"><!-- Inicio de Conterner-->
+
+			<header><!-- Inicio Reader-->
+				<div id="logo">
+					<h1><a href="">Museo Nacional</a></h1>
+				</div>
+
+				<nav><!-- incio Nav -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+					<li><a href="#">Pesquisa</a></li>
+					<li><a href="#">Acervo</a></li>
+					<li><a href="#">videos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav><!-- incio Nav -->
+			</header><!-- Fim de Reader-->
+				<div id="principal"><!-- Inicio Principal -->
+					<div id="conteudo"><!-- Inicio conteudo -->
+						<section id="capa">
+							<img src="img/museu.png">
+						</section>
+
+						<section id="postagens">
+							<article id="video">
+								<h3>Vídeo: Conheça o museu</h3>	
+								<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							
+							</article>
+
+							<article id="mapa">
+								<h3>Mapa: Encontre o museu</h3>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.8016114635544!2d-43.227076071792006!3d-22.90575503399056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1558507954304!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</article>
+
+							<article id="exposicoes">
+								<h3>Exposições</h3>
+								<ul>
+									<li>
+										<a href="#">Os Assutadores Insetos</a>
+									</li>
+									<li>
+										<a href="#">O Crânio de Luzia, a mulher mais antiga do Brasil</a>
+									</li>
+									<li>
+										<a href="#">Preguiça Gigante e Tigre-Dentes-de-Sabre</a>
+									</li>
+									<li>
+										<a href="#">Plantas do Brasil Central</a>
+									</li>
+									<li>
+										<a href="#">Tereza Cristina: A Imperatriz Arqueóloga</a>
+									</li>
+									<li>
+										<a href="#">Arter com Dinossauros - Paleoarte</a>
+									</li>
+
+									<li>
+										<a href="#"><strong>Veja Todos (65)</strong></a>
+									</li>
+								</ul>
+							</article>
+
+							<article id="historia">
+								<h3>200 Anos de Historia</h3>
+								<p>
+									Os 200 Anos do Museu Nacional, a serem comemorados em 2018, deverão ser festejados com uma série de atividades acadêmicas consentâneas com suas atribuições de casa de ensino, pesquisa e cultura. Comemorar uma tão importante efeméride, no entanto, exige também – e preliminarmente – uma séria e continuada luta pela revalorização do patrimônio da instituição, sempre carente de recursos. 
+								</p>
+							</article>
+						</section>
+					</div><!-- Fim de conteudo -->
+
+					<aside><!-- Inicio aside -->
+
+						<section id="depoimento">
+							<img src="img/depoimento.png">							
+						</section>
+
+						<section id="visita"><!--  Incio seção Visita -->
+							<h4>Faça uma visita</h4>
+							<form>
+								<fieldset>
+
+									<legend>Selecione uma data</legend>
+
+
+									<label for="data">Data:</label>
+									<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+									<label for="qtd">Qtd Pessoas:</label>
+									<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+								</fieldset>
+
+								<input class="botao" type="submit" value="verificar disponibilidade">
+							</form>
+						</section><!--  Fim de seção Visita -->
+
+						<section id="galeria">
+
+							<h4>Galeria de Fotos</h4>
+
+							<a href="">
+								<img src="img/imagem1.jpg" style="height: 93px; width: 93px" alt="Descrição imagem">
+							</a>
+
+							<a href="">
+								<img src="img/imagem2.jpg" style="height: 93px; width: 93px" alt="Descrição imagem">
+							</a>
+
+							<a href="">
+								<img src="img/imagem3.jpg" style="height: 93px; width: 93px" alt="Descrição imagem">
+							</a>
+
+							<a href="">
+								<img src="img/imagem4.jpg" style="height: 93px; width: 93px" alt="Descrição imagem">
+							</a>
+
+						</section>
+					</aside><!-- Fim de aside -->
+					<footer>
+						<p>
+							<a href="#">Home</a>
+							<a href="#">Exposições</a>
+							<a href="#">Pesquisa</a>
+							<a href="#">Acervo</a>
+							<a href="#">videos</a>
+							<a href="#">Fotos</a>
+							<a href="#">Contato</a>
+						</p>
+						<p>
+							2019 <a href="#">Museu Nacional</a> - Todos Direitos Reservados.
+						</p>
+					</footer>
+				</div><!-- Fim de Principal -->
+			</div>
+		</div>
+	</body>
+</html>
