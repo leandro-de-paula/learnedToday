@@ -1,0 +1,23 @@
+{
+  "name": "desafio-carro-cli",
+  "version": "1.0.0",
+  "description": "Programa besado em CLI para salvar dados de carros",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.19",
+    "prompt": "^1.0.0",
+    "request": "^2.88.2",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandro-de-paula/learnedToday/tree/master/backEnd/nodejs"
+  },
+  "author": "Leandro de Paula",
+  "license": "ISC"
+}
