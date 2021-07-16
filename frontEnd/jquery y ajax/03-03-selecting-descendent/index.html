@@ -8,7 +8,18 @@
     </head>
     <body>        
         <div id="container">
+            <h3>jQuery y Ajax</h3>
+            <small>Leandro de Paula</small>
             <p>quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
+            <pre>
+                <div>
+                    $(document).ready(function() {
+                        //$('#listado li').addClass('highlighted');
+                        $('#listado > li').addClass('highlighted');
+                        $('#container > pre').addClass('highlighted');
+                    });
+                </div>
+            </pre>
         </div>
         <ul id="listado">
             <li class="class1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
